@@ -1,0 +1,6 @@
+C:\Users\student\Desktop\FSWD\NHL_Threes\NHL_Threes\bin\Debug\NHL_Threes.exe.config
+C:\Users\student\Desktop\FSWD\NHL_Threes\NHL_Threes\bin\Debug\NHL_Threes.exe
+C:\Users\student\Desktop\FSWD\NHL_Threes\NHL_Threes\bin\Debug\NHL_Threes.pdb
+C:\Users\student\Desktop\FSWD\NHL_Threes\NHL_Threes\obj\Debug\NHL_Threes.csprojResolveAssemblyReference.cache
+C:\Users\student\Desktop\FSWD\NHL_Threes\NHL_Threes\obj\Debug\NHL_Threes.exe
+C:\Users\student\Desktop\FSWD\NHL_Threes\NHL_Threes\obj\Debug\NHL_Threes.pdb
