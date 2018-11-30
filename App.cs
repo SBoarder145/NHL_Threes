@@ -10,7 +10,6 @@ namespace NHL_Threes
     {
         static void Main(string[] args)
         {
-            Console.SetWindowSize(90, 30);
             PrintHeader();
             Console.ReadKey();
             Console.Clear();
@@ -56,20 +55,20 @@ namespace NHL_Threes
         {
             Console.ForegroundColor = ConsoleColor.Cyan;
             Console.WriteLine(@"
-       _   __ __  __ __ 
-      / | / // / / // / 
-     /  |/ // /_/ // /  
+       _   __ __  __ __
+      / | / // / / // /
+     /  |/ // /_/ // /
     / /|  // __  // /___
    /_/ |_//_/ /_//_____/
     ______ __  __ ____   ______ ______ _____
     /_  __// / / // __ \ / ____// ____// ___/
-     / /  / /_/ // /_/ // __/  / __/   \__ \ 
-    / /  / __  // _, _// /___ / /___  ___/ / 
+     / /  / /_/ // /_/ // __/  / __/   \__ \
+    / /  / __  // _, _// /___ / /___  ___/ /
    /_/  /_/ /_//_/ |_|/_____//_____/ /____/
 
 
          Press any key to continue");
-            // Art genererated at http://patorjk.com/software/taag/
+            // Art generated at http://patorjk.com/software/taag/
 
             Console.ResetColor();
         }

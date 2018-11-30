@@ -917,34 +917,32 @@ namespace NHL_Threes
                         TextFormat.UserAway(user.Name);
                     }
 
-                    Console.Write(" shoots for ");
-
                     switch (input)
                     {
                         case "1":
                         case "low stick":
                         case "low stick side":
-                            Console.Write("the low stick side!");
+                            Console.Write(" shoots for the low stick side!");
                             return "low stick";
                         case "2":
                         case "low glove":
                         case "low glove side":
-                            Console.Write("the low glove side!");
+                            Console.Write(" shoots for the low glove side!");
                             return "low glove";
                         case "3":
                         case "high stick":
                         case "high stick side":
-                            Console.Write("the high stick side!");
-                            return "high stick";
+                            Console.Write(" shoots for the high stick side!");
+                            return "high st shoots for ick";
                         case "4":
                         case "high glove":
                         case "high glove side":
-                            Console.Write("the high glove side!");
+                            Console.Write(" shoots for the high glove side!");
                             return "high glove";
                         case "5":
                         case "legs":
                         case "between legs":
-                            Console.Write("between the goalie's legs!");
+                            Console.Write(" shoots for between the goalie's legs!");
                             return "legs";
                         default:
                             Console.WriteLine("Invalid selection. Please try again.");

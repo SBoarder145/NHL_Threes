@@ -45,15 +45,14 @@ namespace NHL_Threes
                 case "ANA":
                     t = new Team("Anaheim Ducks", "ANA",
                         new List<Byte>() { 8 });
-
                     t.Center = new Player(t, "Ryan Getzlaf", Positions.center, 15,
-                        80, 87, 87, 87, 84, 88, 84);
+                        83, 90, 90, 90, 87, 91, 87);
                     t.Winger = new Player(t, "Corey Perry", Positions.winger, 10,
-                        81, 88, 86, 85, 89, 87, 84);
+                        83, 90, 88, 87, 91, 89, 86);
                     t.Defenseman = new Player(t, "Cam Fowler", Positions.defenseman, 42,
-                        86, 84, 86, 86, 83, 87, 84);
+                        89, 87, 89, 89, 86, 90, 87);
                     t.Goalie = new Goalie(t, "John Gibson", 36,
-                        84, 87, 84, 87, 86);
+                        86, 89, 86, 89, 88);
                     break;
                 #endregion
 
@@ -62,14 +61,13 @@ namespace NHL_Threes
                     t = new Team("Arizona Coyotes", "ARI",
                         new List<Byte>() { 7, 9, 10, 25, 27, 97 });
                     t.Center = new Player(t, "Derek Stepan", Positions.center, 9,
-                        75, 73, 75, 75, 74, 74, 75);
+                        81, 79, 81, 81, 80, 80, 81);
                     t.Winger = new Player(t, "Clayton Keller", Positions.winger, 16,
-                        74, 68, 76, 75, 74, 75, 74);
+                        81, 75, 83, 82, 81, 82, 81);
                     t.Defenseman = new Player(t, "Oliver Ekman-Larsson", Positions.defenseman, 23,
-                        74, 69, 75, 77, 71, 76, 74);
+                        81, 76, 82, 84, 78, 83, 81);
                     t.Goalie = new Goalie(t, "Antti Raanta", 32,
-                        73, 75, 74, 76, 74);
-
+                        79, 81, 80, 82, 80);
                     break;
                 #endregion
 
@@ -77,15 +75,14 @@ namespace NHL_Threes
                 case "BOS":
                     t = new Team("Boston Bruins", "BOS",
                         new List<Byte>() { 2, 3, 4, 5, 7, 8, 9, 15, 24, 77 });
-
                     t.Center = new Player(t, "Patrice Bergeron", Positions.center, 37,
-                        86, 85, 92, 89, 86, 90, 92);
+                        87, 86, 93, 90, 87, 91, 93);
                     t.Winger = new Player(t, "Brad Marchand", Positions.winger, 63,
-                        87, 86, 88, 89, 89, 91, 87);
+                        89, 88, 90, 91, 91, 93, 89);
                     t.Defenseman = new Player(t, "Zdeno Chara", Positions.defenseman, 33,
-                        85, 97, 90, 86, 86, 86, 90);
+                        86, 98, 91, 87, 87, 87, 91);
                     t.Goalie = new Goalie(t, "Tuukka Rask", 40,
-                        88, 88, 88, 89, 88);
+                        90, 90, 90, 91, 90);
                     break;
                 #endregion
 
@@ -93,15 +90,14 @@ namespace NHL_Threes
                 case "BUF":
                     t = new Team("Buffalo Sabres", "BUF",
                         new List<Byte>() { 2, 7, 11, 14, 16, 18, 39 });
-
                     t.Center = new Player(t, "Jack Eichel", Positions.center, 15,
-                        74, 69, 73, 74, 73, 74, 72);
+                        81, 76, 80, 81, 80, 81, 79);
                     t.Winger = new Player(t, "Kyle Okposo", Positions.winger, 21,
-                        73, 73, 73, 74, 73, 73, 70);
+                        80, 80, 80, 81, 80, 80, 77);
                     t.Defenseman = new Player(t, "Rasmus Ristolainen", Positions.defenseman, 55,
-                        71, 75, 74, 73, 70, 72, 74);
+                        78, 82, 81, 80, 77, 79, 81);
                     t.Goalie = new Goalie(t, "Robin Lehner", 40,
-                        72, 73, 72, 74, 73);
+                        79, 80, 79, 81, 80);
                     break;
                 #endregion
 
@@ -109,15 +105,14 @@ namespace NHL_Threes
                 case "CGY":
                     t = new Team("Calgary Flames", "CGY",
                         new List<Byte>() { 9, 30 });
-
                     t.Center = new Player(t, "Sean Monahan", Positions.center, 23,
-                        77, 79, 80, 79, 80, 80, 79);
+                        82, 84, 85, 84, 85, 85, 84);
                     t.Winger = new Player(t, "Johnny Gaudreau", Positions.winger, 13,
-                        82, 71, 82, 83, 79, 83, 77);
+                        86, 75, 86, 87, 83, 87, 81);
                     t.Defenseman = new Player(t, "Mark Giordano", Positions.defenseman, 5,
-                        79, 79, 81, 80, 76, 80, 83);
+                        83, 83, 85, 84, 80, 84, 87);
                     t.Goalie = new Goalie(t, "Mike Smith", 41,
-                        79, 79, 78, 80, 79);
+                        84, 84, 83, 85, 84);
                     break;
                 #endregion
 
@@ -125,15 +120,14 @@ namespace NHL_Threes
                 case "CAR":
                     t = new Team("Carolina Hurricanes", "CAR",
                         new List<Byte>() { 2, 10, 17 });
-
                     t.Center = new Player(t, "Jordan Staal", Positions.center, 11,
-                        77, 82, 80, 78, 78, 78, 81);
+                        82, 87, 85, 83, 83, 83, 86);
                     t.Winger = new Player(t, "Sebastian Aho", Positions.winger, 20,
-                        79, 75, 79, 79, 79, 80, 78);
+                        84, 80, 84, 84, 84, 85, 83);
                     t.Defenseman = new Player(t, "Justin Faulk", Positions.defenseman, 5,
-                        78, 77, 82, 81, 77, 81, 78);
+                        83, 82, 87, 86, 82, 86, 83);
                     t.Goalie = new Goalie(t, "Cam Ward", 30,
-                        77, 79, 77, 79, 79);
+                        82, 84, 82, 84, 84);
                     break;
                 #endregion
 
@@ -141,15 +135,14 @@ namespace NHL_Threes
                 case "CHI":
                     t = new Team("Chicago Blackhawks", "CHI",
                         new List<Byte>() { 1, 3, 9, 18, 21, 35 });
-
                     t.Center = new Player(t, "Jonathan Toews", Positions.center, 19,
-                        76, 74, 78, 77, 76, 72, 79);
+                        82, 80, 84, 83, 82, 78, 85);
                     t.Winger = new Player(t, "Patrick Kane", Positions.winger, 88,
-                        75, 66, 78, 81, 77, 81, 74);
+                        81, 72, 84, 87, 83, 87, 80);
                     t.Defenseman = new Player(t, "Duncan Keith", Positions.defenseman, 2,
-                        77, 71, 80, 79, 73, 76, 79);
+                        83, 77, 86, 85, 79, 82, 85);
                     t.Goalie = new Goalie(t, "Corey Crawford", 50,
-                        75, 77, 75, 78, 77);
+                        81, 83, 81, 84, 83);
                     break;
                 #endregion
 
@@ -157,15 +150,14 @@ namespace NHL_Threes
                 case "COL":
                     t = new Team("Colorado Avalanche", "COL",
                         new List<Byte>() { 19, 21, 23, 33, 52, 77 });
-
                     t.Center = new Player(t, "Nathan MacKinnon", Positions.center, 29,
-                        84, 77, 81, 80, 80, 83, 81);
+                        88, 81, 85, 84, 84, 87, 85);
                     t.Winger = new Player(t, "Gabriel Landeskog", Positions.winger, 92,
-                        80, 82, 81, 81, 81, 80, 81);
+                        84, 86, 85, 85, 85, 84, 85);
                     t.Defenseman = new Player(t, "Tyson Barrie", Positions.defenseman, 4,
-                        81, 77, 82, 83, 78, 83, 81);
+                        85, 81, 86, 87, 82, 87, 85);
                     t.Goalie = new Goalie(t, "Semyon Varlamov", 1,
-                        80, 82, 80, 83, 81);
+                        84, 86, 84, 87, 85);
                     break;
                 #endregion
 
@@ -173,15 +165,14 @@ namespace NHL_Threes
                 case "CBJ":
                     t = new Team("Columbus Blue Jackets", "CBJ",
                         new List<Byte>() { });
-
                     t.Center = new Player(t, "Pierre-Luc Dubois", Positions.center, 18,
-                        83, 81, 82, 80, 83, 84, 83);
+                        87, 85, 86, 84, 87, 88, 87);
                     t.Winger = new Player(t, "Artemi Panarin", Positions.winger, 71,
-                        85, 76, 84, 86, 84, 86, 79);
+                        88, 79, 87, 89, 87, 89, 82);
                     t.Defenseman = new Player(t, "Seth Jones", Positions.defenseman, 3,
-                        81, 82, 83, 83, 80, 85, 85);
+                        85, 86, 87, 87, 84, 89, 89);
                     t.Goalie = new Goalie(t, "Sergei Bobrovsky", 72,
-                        81, 84, 81, 83, 83);
+                        85, 88, 85, 87, 87);
                     break;
                 #endregion
 
@@ -189,15 +180,14 @@ namespace NHL_Threes
                 case "DAL":
                     t = new Team("Dallas Stars", "DAL",
                         new List<Byte>() { 7, 8, 9, 19, 26 });
-
                     t.Center = new Player(t, "Tyler Seguin", Positions.center, 91,
-                        81, 76, 80, 84, 82, 83, 76);
+                        85, 80, 84, 88, 86, 87, 80);
                     t.Winger = new Player(t, "Jamie Benn", Positions.winger, 14,
-                        78, 79, 80, 81, 81, 81, 78);
+                        83, 84, 85, 86, 86, 86, 83);
                     t.Defenseman = new Player(t, "John Klingberg", Positions.defenseman, 3,
-                        79, 76, 81, 82, 76, 83, 82);
+                        84, 81, 86, 87, 81, 88, 87);
                     t.Goalie = new Goalie(t, "Ben Bishop", 30,
-                        79, 80, 79, 81, 79);
+                        84, 85, 84, 86, 84);
                     break;
                 #endregion
 
@@ -205,31 +195,29 @@ namespace NHL_Threes
                 case "DET":
                     t = new Team("Detroit Red Wings", "DET",
                         new List<Byte>() { 1, 5, 7, 9, 10, 12, 19 });
-
                     t.Center = new Player(t, "Henrik Zetterberg", Positions.center, 40,
-                        75, 75, 76, 76, 76, 75, 75);
+                        81, 81, 82, 82, 82, 81, 81);
                     t.Winger = new Player(t, "Gustav Nyquist", Positions.winger, 14,
-                        79, 72, 75, 77, 76, 77, 74);
+                        85, 78, 81, 83, 82, 83, 80);
                     t.Defenseman = new Player(t, "Trevor Daley", Positions.defenseman, 25,
-                        77, 76, 76, 75, 73, 74, 75);
+                        83, 82, 82, 81, 79, 80, 81);
                     t.Goalie = new Goalie(t, "Jimmy Howard", 35,
-                        75, 77, 73, 76, 74);
+                        81, 83, 79, 82, 80);
                     break;
                 #endregion
 
                 #region EDM
                 case "EDM":
                     t = new Team("Edmonton Oilers", "EDM",
-                new List<Byte>() { 3, 7, 9, 11, 17, 31 });
-
+                        new List<Byte>() { 3, 7, 9, 11, 17, 31 });
                     t.Center = new Player(t, "Connor McDavid", Positions.center, 97,
-                        81, 71, 78, 80, 76, 82, 75);
+                        86, 76, 83, 85, 81, 87, 80);
                     t.Winger = new Player(t, "Milan Lucic", Positions.winger, 27,
-                        77, 86, 76, 76, 79, 76, 76);
+                        82, 91, 81, 81, 84, 81, 81);
                     t.Defenseman = new Player(t, "Darnell Nurse", Positions.defenseman, 25,
-                        77, 80, 78, 76, 75, 77, 78);
+                        83, 86, 84, 82, 81, 83, 84);
                     t.Goalie = new Goalie(t, "Cam Talbot", 33,
-                        76, 78, 76, 78, 79);
+                        82, 84, 82, 84, 85);
                     break;
                 #endregion
 
@@ -237,15 +225,14 @@ namespace NHL_Threes
                 case "FLA":
                     t = new Team("Florida Panthers", "FLA",
                         new List<Byte>() { 37, 93 });
-
                     t.Center = new Player(t, "Aleksander Barkov", Positions.center, 17,
-                        77, 81, 82, 84, 82, 84, 81);
+                        81, 85, 86, 88, 86, 88, 85);
                     t.Winger = new Player(t, "Jonathan Huberdeau", Positions.winger, 11,
-                        82, 78, 82, 83, 81, 84, 79);
+                        86, 82, 86, 87, 85, 88, 83);
                     t.Defenseman = new Player(t, "Aaron Ekblad", Positions.defenseman, 3,
-                        81, 81, 83, 82, 79, 82, 83);
+                        85, 85, 87, 86, 83, 86, 87);
                     t.Goalie = new Goalie(t, "Roberto Luongo", 1,
-                        80, 82, 80, 83, 83);
+                        84, 86, 84, 87, 87);
                     break;
                 #endregion
 
@@ -253,15 +240,14 @@ namespace NHL_Threes
                 case "LAK":
                     t = new Team("Los Angeles Kings", "LAK",
                         new List<Byte>() { 4, 16, 18, 20, 30 });
-
                     t.Center = new Player(t, "Anze Kopitar", Positions.center, 11,
-                        80, 84, 84, 85, 83, 86, 84);
+                        83, 87, 87, 88, 86, 89, 87);
                     t.Winger = new Player(t, "Dustin Brown", Positions.winger, 23,
-                        82, 86, 84, 83, 84, 81, 83);
+                        86, 90, 88, 87, 88, 85, 87);
                     t.Defenseman = new Player(t, "Drew Doughty", Positions.defenseman, 8,
-                        84, 80, 87, 77, 81, 88, 88);
+                        87, 83, 90, 80, 84, 91, 91);
                     t.Goalie = new Goalie(t, "Jonathan Quick", 32,
-                        84, 84, 82, 85, 84);
+                        87, 87, 85, 88, 87);
                     break;
                 #endregion
 
@@ -269,15 +255,14 @@ namespace NHL_Threes
                 case "MIN":
                     t = new Team("Minnesota Wild", "MIN",
                         new List<Byte>() { 1 });
-
                     t.Center = new Player(t, "Mikko Koivu", Positions.center, 9,
-                        85, 88, 87, 87, 85, 86, 87);
+                        87, 90, 89, 89, 87, 88, 89);
                     t.Winger = new Player(t, "Zach Parise", Positions.winger, 64,
-                        88, 83, 87, 86, 85, 87, 85);
+                        91, 86, 90, 89, 88, 90, 88);
                     t.Defenseman = new Player(t, "Ryan Suter", Positions.defenseman, 20,
-                        85, 85, 88, 87, 82, 88, 90);
+                        87, 87, 90, 89, 84, 90, 92);
                     t.Goalie = new Goalie(t, "Devan Dubnyk", 40,
-                        84, 87, 84, 87, 88);
+                        86, 89, 86, 89, 90);
                     break;
                 #endregion
 
@@ -285,15 +270,14 @@ namespace NHL_Threes
                 case "MTL":
                     t = new Team("Montreal Canadiens", "MTL",
                         new List<Byte>() { 1, 2, 3, 4, 5, 7, 9, 10, 12, 16, 18, 19, 23, 29, 33 });
-
                     t.Center = new Player(t, "Jonathan Drouin", Positions.center, 92,
-                        79, 70, 75, 76, 76, 77, 72);
+                        85, 76, 81, 82, 82, 83, 78);
                     t.Winger = new Player(t, "Max Pacioretty", Positions.winger, 67,
-                        75, 74, 74, 75, 76, 75, 72);
+                        82, 81, 81, 82, 83, 82, 79);
                     t.Defenseman = new Player(t, "Shea Weber", Positions.defenseman, 26,
-                        71, 79, 74, 72, 73, 75, 78);
+                        78, 86, 81, 79, 80, 82, 85);
                     t.Goalie = new Goalie(t, "Carey Price", 31,
-                        71, 74, 74, 77, 77);
+                        78, 81, 81, 84, 84);
                     break;
                 #endregion
 
@@ -301,15 +285,14 @@ namespace NHL_Threes
                 case "NSH":
                     t = new Team("Nashville Predators", "NSH",
                         new List<Byte>() { });
-
                     t.Center = new Player(t, "Ryan Johansen", Positions.center, 92,
-                        90, 92, 89, 92, 91, 90, 85);
+                        91, 93, 90, 93, 92, 91, 86);
                     t.Winger = new Player(t, "Filip Forsberg", Positions.winger, 9,
-                        90, 90, 92, 91, 91, 91, 88);
+                        91, 91, 93, 92, 92, 92, 89);
                     t.Defenseman = new Player(t, "Roman Josi", Positions.defenseman, 59,
-                        89, 89, 92, 91, 88, 92, 92);
+                        90, 90, 93, 92, 89, 93, 93);
                     t.Goalie = new Goalie(t, "Pekka Rinne", 35,
-                        90, 90, 89, 92, 91);
+                        91, 91, 90, 93, 92);
                     break;
                 #endregion
 
@@ -317,15 +300,14 @@ namespace NHL_Threes
                 case "NJD":
                     t = new Team("New Jersey Devils", "NJD",
                         new List<Byte>() { 3, 4, 26, 27, 30 });
-
                     t.Center = new Player(t, "Nico Hischier", Positions.center, 13,
-                        84, 78, 81, 80, 84, 83, 81);
+                        88, 82, 85, 84, 88, 87, 85);
                     t.Winger = new Player(t, "Taylor Hall", Positions.winger, 9,
-                        87, 78, 82, 82, 83, 84, 80);
+                        91, 82, 86, 86, 87, 88, 84);
                     t.Defenseman = new Player(t, "Sami Vatanen", Positions.defenseman, 6,
-                        85, 79, 83, 83, 81, 83, 81);
+                        89, 83, 87, 87, 85, 87, 85);
                     t.Goalie = new Goalie(t, "Cory Schneider", 35,
-                        80, 82, 80, 84, 84);
+                        84, 86, 84, 88, 88);
                     break;
                 #endregion
 
@@ -333,15 +315,14 @@ namespace NHL_Threes
                 case "NYI":
                     t = new Team("New York Islanders", "NYI",
                         new List<Byte>() { 5, 9, 19, 22, 23, 31 });
-
                     t.Center = new Player(t, "John Tavares", Positions.center, 91,
-                        72, 75, 79, 81, 80, 81, 76);
+                        78, 81, 85, 87, 86, 87, 82);
                     t.Winger = new Player(t, "Joshua Bailey", Positions.winger, 12,
-                        78, 78, 79, 79, 77, 80, 78);
+                        83, 83, 84, 84, 82, 85, 83);
                     t.Defenseman = new Player(t, "Nick Leddy", Positions.defenseman, 2,
-                        80, 75, 80, 80, 75, 81, 79);
+                        85, 80, 85, 85, 80, 86, 84);
                     t.Goalie = new Goalie(t, "Jaroslav Halak", 41,
-                        78, 79, 77, 79, 79);
+                        83, 84, 82, 84, 84);
                     break;
                 #endregion
 
@@ -349,15 +330,14 @@ namespace NHL_Threes
                 case "NYR":
                     t = new Team("New York Rangers", "NYR",
                 new List<Byte>() { 1, 2, 3, 7, 9, 11, 19, 35 });
-
                     t.Center = new Player(t, "Mika Zibanejad", Positions.center, 93,
-                        78, 77, 77, 76, 76, 77, 75);
+                        84, 83, 83, 82, 82, 83, 81);
                     t.Winger = new Player(t, "Mats Zuccarello", Positions.winger, 36,
-                        82, 70, 78, 78, 78, 78, 76);
+                        87, 75, 83, 83, 83, 83, 81);
                     t.Defenseman = new Player(t, "Kevin Shattenkirk", Positions.defenseman, 27,
-                        78, 74, 78, 81, 73, 81, 77);
+                        83, 79, 83, 86, 78, 86, 82);
                     t.Goalie = new Goalie(t, "Henrik Lundqvist", 30,
-                        75, 78, 75, 79, 78);
+                        81, 84, 81, 85, 84);
                     break;
                 #endregion
 
@@ -365,15 +345,14 @@ namespace NHL_Threes
                 case "OTT":
                     t = new Team("Ottawa Senators", "OTT",
                         new List<Byte>() { 8, 11 });
-
                     t.Center = new Player(t, "Matt Duchene", Positions.center, 95,
-                        80, 71, 73, 74, 74, 73, 70);
+                        87, 78, 80, 81, 81, 80, 77);
                     t.Winger = new Player(t, "Mark Stone", Positions.winger, 61,
-                        70, 74, 74, 74, 76, 75, 74);
+                        77, 81, 81, 81, 83, 82, 81);
                     t.Defenseman = new Player(t, "Erik Karlsson", Positions.defenseman, 65,
-                        74, 67, 75, 77, 71, 76, 74);
+                        81, 74, 82, 84, 78, 83, 81);
                     t.Goalie = new Goalie(t, "Craig Anderson", 41,
-                        74, 74, 73, 74, 74);
+                        81, 81, 80, 81, 81);
                     break;
                 #endregion
 
@@ -381,15 +360,14 @@ namespace NHL_Threes
                 case "PHI":
                     t = new Team("Philadelphia Flyers", "PHI",
                         new List<Byte>() { 1, 2, 4, 7, 16, 88 });
-
                     t.Center = new Player(t, "Claude Giroux", Positions.center, 28,
-                        84, 77, 84, 87, 82, 86, 81);
+                        88, 81, 88, 91, 86, 90, 85);
                     t.Winger = new Player(t, "Jakub Voracek", Positions.winger, 93,
-                        82, 81, 83, 85, 85, 85, 81);
+                        85, 84, 86, 88, 88, 88, 84);
                     t.Defenseman = new Player(t, "Shayne Gostisbehere", Positions.defenseman, 53,
-                        82, 79, 84, 83, 82, 85, 84);
+                        86, 83, 88, 87, 86, 89, 88);
                     t.Goalie = new Goalie(t, "Brian Elliott", 37,
-                        82, 84, 83, 85, 83);
+                        85, 87, 86, 88, 86);
                     break;
                 #endregion
 
@@ -397,15 +375,14 @@ namespace NHL_Threes
                 case "PIT":
                     t = new Team("Pittsburgh Penguins", "PIT",
                         new List<Byte>() { 21, 66 });
-
                     t.Center = new Player(t, "Sidney Crosby", Positions.center, 87,
-                        83, 82, 86, 87, 84, 88, 83);
+                        86, 85, 89, 90, 87, 91, 86);
                     t.Winger = new Player(t, "Phil Kessel", Positions.winger, 81,
-                        88, 80, 84, 86, 87, 88, 83);
+                        91, 83, 87, 89, 90, 91, 86);
                     t.Defenseman = new Player(t, "Kris Letang", Positions.defenseman, 58,
-                        85, 81, 86, 86, 81, 86, 88);
+                        88, 84, 89, 89, 84, 89, 91);
                     t.Goalie = new Goalie(t, "Matt Murray", 30,
-                        85, 85, 85, 85, 85);
+                        88, 88, 88, 88, 88);
                     break;
                 #endregion
 
@@ -413,15 +390,14 @@ namespace NHL_Threes
                 case "STL":
                     t = new Team("Saint Louis Blues", "STL",
                         new List<Byte>() { 2, 3, 5, 8, 11, 16, 24 });
-
                     t.Center = new Player(t, "Brayden Schenn", Positions.center, 17,
-                        78, 80, 81, 81, 81, 80, 79);
+                        85, 87, 88, 88, 88, 87, 86);
                     t.Winger = new Player(t, "Vladimir Tarasenko", Positions.winger, 91,
-                        82, 77, 81, 83, 82, 83, 78);
+                        88, 83, 87, 89, 88, 89, 84);
                     t.Defenseman = new Player(t, "Alex Pietrangelo", Positions.defenseman, 27,
-                        78, 79, 82, 82, 77, 83, 84);
+                        85, 86, 89, 89, 84, 90, 91);
                     t.Goalie = new Goalie(t, "Jake Allen", 34,
-                        80, 81, 79, 81, 81);
+                        87, 88, 86, 88, 88);
                     break;
                 #endregion
 
@@ -429,7 +405,6 @@ namespace NHL_Threes
                 case "SJS":
                     t = new Team("San Jose Sharks", "SJS",
                         new List<Byte>() { });
-
                     t.Center = new Player(t, "Joe Thornton", Positions.center, 8,
                         80, 87, 86, 87, 83, 86, 84);
                     t.Winger = new Player(t, "Joe Pavelski", Positions.winger, 62,
@@ -437,7 +412,7 @@ namespace NHL_Threes
                     t.Defenseman = new Player(t, "Brent Burns", Positions.defenseman, 88,
                         81, 86, 84, 85, 84, 85, 86);
                     t.Goalie = new Goalie(t, "Martin Jones", 31,
-                        84, 84, 83, 85, 84);
+                        85, 85, 84, 86, 85);
                     break;
                 #endregion
 
@@ -445,15 +420,14 @@ namespace NHL_Threes
                 case "TBL":
                     t = new Team("Tampa Bay Lightning", "TBL",
                         new List<Byte>() { 4, 26 });
-
                     t.Center = new Player(t, "Steven Stamkos", Positions.center, 91,
-                        90, 84, 88, 91, 90, 92, 87);
+                        91, 85, 89, 92, 91, 93, 88);
                     t.Winger = new Player(t, "Nikita Kucherov", Positions.winger, 86,
-                        89, 82, 88, 91, 88, 92, 89);
+                        91, 84, 90, 93, 90, 94, 91);
                     t.Defenseman = new Player(t, "Victor Hedman", Positions.defenseman, 77,
-                        85, 92, 91, 89, 85, 90, 92);
+                        86, 93, 92, 90, 86, 91, 93);
                     t.Goalie = new Goalie(t, "Andrei Vasilevskiy", 88,
-                        89, 89, 87, 89, 88);
+                        91, 91, 89, 91, 90);
                     break;
                 #endregion
 
@@ -462,15 +436,14 @@ namespace NHL_Threes
                     t = new Team("Toronto Maple Leafs", "TOR",
                         new List<Byte>() { 1, 4, 5, 6, 7, 9,
                         10, 13, 14, 17, 21, 27, 93});
-
                     t.Center = new Player(t, "Auston Matthews", Positions.center, 34,
-                        86, 85, 87, 87, 88, 90, 86);
+                        88, 87, 89, 89, 90, 92, 88);
                     t.Winger = new Player(t, "William Nylander", Positions.winger, 25,
-                        89, 81, 87, 89, 87, 88, 83);
+                        92, 84, 90, 92, 90, 91, 86);
                     t.Defenseman = new Player(t, "Morgan Rielly", Positions.defenseman, 44,
-                        88, 84, 87, 87, 83, 87, 87);
+                        91, 87, 90, 90, 86, 90, 90);
                     t.Goalie = new Goalie(t, "Frederik Andersen", 31,
-                        86, 87, 86, 88, 88);
+                        88, 89, 88, 90, 90);
                     break;
                 #endregion
 
@@ -478,15 +451,14 @@ namespace NHL_Threes
                 case "VAN":
                     t = new Team("Vancouver Canucks", "VAN",
                         new List<Byte>() { 10, 12, 16, 19 });
-
                     t.Center = new Player(t, "Henrik Sedin", Positions.center, 33,
-                        73, 76, 76, 76, 77, 75, 75);
+                        79, 82, 82, 82, 83, 81, 81);
                     t.Winger = new Player(t, "Daniel Sedin", Positions.winger, 22,
-                        74, 77, 77, 77, 76, 76, 76);
+                        80, 83, 83, 83, 82, 82, 82);
                     t.Defenseman = new Player(t, "Alexander Edler", Positions.defenseman, 23,
-                        75, 78, 76, 75, 73, 74, 77);
+                        81, 84, 82, 81, 79, 80, 83);
                     t.Goalie = new Goalie(t, "Jacob Markstrom", 25,
-                        73, 76, 75, 77, 76);
+                        79, 82, 81, 83, 82);
                     break;
                 #endregion
 
@@ -494,15 +466,14 @@ namespace NHL_Threes
                 case "VGK":
                     t = new Team("Vegas Golden Knights", "VGK",
                         new List<Byte>() { });
-
                     t.Center = new Player(t, "William Karlsson", Positions.center, 71,
-                        88, 84, 87, 88, 88, 90, 87);
+                        90, 86, 89, 90, 90, 92, 89);
                     t.Winger = new Player(t, "Jonathan Marchessault", Positions.winger, 57,
-                        87, 83, 89, 89, 89, 90, 88);
+                        89, 85, 91, 91, 91, 92, 90);
                     t.Defenseman = new Player(t, "Nate Schmidt", Positions.defenseman, 6,
-                        89, 87, 87, 86, 85, 87, 90);
+                        91, 89, 89, 88, 87, 89, 92);
                     t.Goalie = new Goalie(t, "Marc-Andre Fleury", 29,
-                        88, 89, 87, 89, 88);
+                        89, 90, 88, 90, 89);
                     break;
                 #endregion
 
@@ -510,15 +481,14 @@ namespace NHL_Threes
                 case "WSH":
                     t = new Team("Washington Capitals", "WSH",
                         new List<Byte>() { 5, 7, 11, 32 });
-
                     t.Center = new Player(t, "Nicklas Backstrom", Positions.center, 92,
-                        87, 81, 89, 91, 83, 90, 86);
+                        89, 83, 91, 93, 85, 92, 88);
                     t.Winger = new Player(t, "Alex Ovechkin", Positions.winger, 8,
-                        85, 89, 87, 86, 90, 91, 81);
+                        87, 91, 89, 88, 92, 93, 83);
                     t.Defenseman = new Player(t, "John Carlson", Positions.defenseman, 74,
-                        85, 87, 89, 88, 84, 89, 88);
+                        87, 89, 91, 90, 86, 91, 90);
                     t.Goalie = new Goalie(t, "Braden Holtby", 70,
-                        85, 87, 86, 88, 88);
+                        87, 89, 88, 90, 90);
                     break;
                 #endregion
 
@@ -526,15 +496,14 @@ namespace NHL_Threes
                 case "WPG":
                     t = new Team("Winnipeg Jets", "WPG",
                         new List<Byte>() { 9, 10, 14, 15 });
-
                     t.Center = new Player(t, "Mark Scheifele", Positions.center, 55,
-                        88, 86, 89, 92, 89, 92, 88);
+                        89, 87, 90, 93, 90, 93, 89);
                     t.Winger = new Player(t, "Blake Wheeler", Positions.winger, 26,
-                        86, 90, 89, 89, 89, 91, 89);
+                        88, 92, 91, 91, 91, 93, 91);
                     t.Defenseman = new Player(t, "Jacob Trouba", Positions.defenseman, 33,
-                        88, 92, 91, 89, 87, 89, 91);
+                        89, 93, 92, 90, 88, 90, 92);
                     t.Goalie = new Goalie(t, "Connor Hellebuyck", 37,
-                        90, 90, 89, 89, 90);
+                        91, 91, 90, 90, 91);
                     break;
                     #endregion
             }
